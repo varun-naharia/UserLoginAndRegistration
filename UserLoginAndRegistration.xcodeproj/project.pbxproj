@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356EF92A1AF68E9B00E1BE25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF9291AF68E9B00E1BE25 /* LoginViewController.swift */; };
+		356EF92C1AF68EA900E1BE25 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF92B1AF68EA900E1BE25 /* RegisterViewController.swift */; };
 		358475221AF6521800DAFA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358475211AF6521800DAFA6E /* AppDelegate.swift */; };
 		358475241AF6521800DAFA6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358475231AF6521800DAFA6E /* ViewController.swift */; };
 		358475271AF6521800DAFA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358475251AF6521800DAFA6E /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		356EF9291AF68E9B00E1BE25 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		356EF92B1AF68EA900E1BE25 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3584751C1AF6521800DAFA6E /* UserLoginAndRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserLoginAndRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		358475201AF6521800DAFA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358475211AF6521800DAFA6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				358475281AF6521800DAFA6E /* Images.xcassets */,
 				3584752A1AF6521800DAFA6E /* LaunchScreen.xib */,
 				3584751F1AF6521800DAFA6E /* Supporting Files */,
+				356EF9291AF68E9B00E1BE25 /* LoginViewController.swift */,
+				356EF92B1AF68EA900E1BE25 /* RegisterViewController.swift */,
 			);
 			path = UserLoginAndRegistration;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356EF92A1AF68E9B00E1BE25 /* LoginViewController.swift in Sources */,
 				358475241AF6521800DAFA6E /* ViewController.swift in Sources */,
 				358475221AF6521800DAFA6E /* AppDelegate.swift in Sources */,
+				356EF92C1AF68EA900E1BE25 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				3584753D1AF6521900DAFA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3584753E1AF6521900DAFA6E /* Build configuration list for PBXNativeTarget "UserLoginAndRegistrationTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				358475401AF6521900DAFA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
